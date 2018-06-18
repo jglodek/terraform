@@ -33,7 +33,7 @@ func (c *WorkspaceCommand) Help() string {
 	helpText := `
 Usage: terraform workspace
 
-  Create, change and delete Terraform workspaces.
+  Create ("new" command), change ("select" command) and delete ("delete" command) Terraform workspaces.
 
 `
 	return strings.TrimSpace(helpText)
